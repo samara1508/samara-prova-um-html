@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Email</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./colab-logo.png" height="40px" width="140px" alt="Logo">
+            <div class="user">
+                <img src="./usuario.png" height="40px" width="40px" alt="Usuário">
+                <b>Henrique Barbosa,</b> <i>gerente-RH</i>
+            </div>
+        </figure>
+        <nav>
+            <h3>Menu</h3>
+                <a href="./index.html">Funcionários |</a>
+                <a href="./novofuncionario.html">Novo Funcionário |</a>
+                <a href="./email.html">Enviar Email |</a>
+                <a href="./inf-usuario.html">Perfil |</a>
+                <a href="./sair.html"> Sair</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3>Enviar Email</h3>
+        <hr />
+        <p>Selecione um <strong>funcionário</strong> para enviar um <em>email</em></p>
+
+        <form action="./enviado.html" method="post">
+            <p>
+                Funcionário:
+                <select>
+                    <option value="L">Leandro</option>
+                    <option value="M" selected>Márcia</option>
+                    <option value="C" selected>Cíntia</option>
+                    <option value="R" selected>Rosane</option>
+                    <option value="A" selected>Arthur</option>
+               </select>
+            </p>
+            <p>
+                <label for="email">Email do funcionário:</label>
+                <input type="email" id= "email" name="email" required>
+            </p>
+            <p>
+                <label for="msg">Mensagem:</label>
+                <input type="textarea" id= "msg" name="msg">
+            </p>
+            <button>Enviar</button>
+            <button type="reset">Cancelar</button>      
+        </form>
+    </main>
+
+    <footer>
+        <figure>
+            <img src="./colab-logo.png" height="20px" width="100px" alt="Logo">
+        </figure>
+        <p>
+            "<strong>Colab</strong>-<mark>todas as informações dos seus colaboradores na palma da sua mão.</mark>"
+        </p>
+        <nav>
+            <a href="./index.html">Funcionários |</a>
+            <a href="./novofuncionario.html">Novo Funcionário |</a>
+            <a href="./email.html">Enviar Email |</a>
+            <a href="./inf-usuario.html">Perfil |</a>
+            <a href="./sair.html"> Sair</a>
+        </nav>
+    </footer>
+</body>
+</html>

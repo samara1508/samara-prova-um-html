@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionário</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./colab-logo.png" height="40px" width="140px" alt="Logo">
+            <div class="user">
+                <img src="./usuario.png" height="40px" width="40px" alt="Usuário">
+                <b>Henrique Barbosa,</b> <i>gerente-RH</i>
+            </div>
+        </figure>
+        <nav>
+            <h3>Menu</h3>
+                <a href="./index.html">Funcionários |</a>
+                <a href="./novofuncionario.html">Novo Funcionário |</a>
+                <a href="./email.html">Enviar Email |</a>
+                <a href="./inf-usuario.html">Perfil |</a>
+                <a href="./sair.html"> Sair</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3>Cadastro de Funcionário</h3>
+        <hr />
+        <form action="./cadastrado.html" method="post">
+            <fieldset>
+                <legend>Dados</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id= "nome" name="nome" autofocus pattern="[a-zA-Z]+" required maxlength="20">
+                </p>
+                <p>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id= "sobrenome" name="sobrenome" pattern="[a-zA-Z]+" maxlength="20">
+                </p>
+                <p>
+                    Filial:
+                    <select>
+                        <option value="001">001</option>
+                        <option value="002" selected>002</option>
+                        <option value="003" selected>003</option>
+                        <option value="004" selected>004</option>
+                        <option value="005" selected>005</option>
+                        <option value="006" selected>006</option>
+                   </select>
+                </p>
+                <p>
+                    <label for="cid">Cidade:</label>
+                    <input type="text" id= "cid" name="cidade" readonly value="Tubarão">
+                </p>
+                <p>
+                    <label for="cargo">Cargo:</label>
+                    <input list = "cargo" type>
+                    <datalist id="cargo">
+                        <option value="Gerente" selected>Gerente</option>
+                        <option value="Estágio" selected>Estágio</option>
+                        <option value="Analista" selected>Analista</option>
+                        <option value="Contador" selected>Contador</option>
+                        <option value="Supervisor" selected>Supervisor</option>
+                        <option value="Treinee" selected>Treinee</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="dataadmissao">Data de Admissão:</label>
+                    <input type="date" id= "dataadmissao" name="dataadmissao">
+                </p>
+                <p>
+                    <label for="sal">Salário:</label>
+                    <input type="number" id= "sal" name="salario">
+                </p>
+            </fieldset>
+            <input type="button" id="cancel">
+            <label for="cancel">Cancelar</label>
+            <button>Salvar</button>
+            <button type="reset">Limpar</button>    
+        </form>
+    </main>
+
+    <footer>
+        <figure>
+            <img src="./colab-logo.png" height="20px" width="100px" alt="Logo">
+        </figure>
+        <p>
+            "<strong>Colab</strong>-<mark>todas as informações dos seus colaboradores na palma da sua mão.</mark>"
+        </p>
+        <nav>
+            <a href="./index.html">Funcionários |</a>
+            <a href="./novofuncionario.html">Novo Funcionário |</a>
+            <a href="./email.html">Enviar Email |</a>
+            <a href="./inf-usuario.html">Perfil |</a>
+            <a href="./sair.html"> Sair</a>
+        </nav>
+    </footer>
+</body>
+</html>
