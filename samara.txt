@@ -1,0 +1,38 @@
+Aluno: Samara
+
+Geral
+  - Não colocou a meta tag com o nome do author da página
+  - 
+Cabeçalho
+  - Não deveria ter o texto "Menu" no cabeçalho
+Rodapé
+  - O texto do paragráfo não deveria estar entre aspas
+Funcionários
+  - ok
+Novo funcionário
+  - Não precisaria ter a validação de "pattern" para os campos Nome e Sobrenome
+  - O campo Sobrenome não está sendo obrigatório informar
+  - O texto "Filial" deveria estar em um elemento label para seguir o padrão dos outros campos
+  - O campo select de filial não está marcado como obrigatório
+  - O campo Salário não esta validando o valor informado
+  - O botão "Cancelar" deveria ser o último botão entre os 3
+  - O label para o botão "Cancelar" está errado, o texto está fora do botão
+    - Você usou um label, mas como está usando input type="button" o texto deve estar no atributo value="Cancelar"
+  - FEZ A PÁGINA OPCIONAL DE SUCESSO
+Enviar email
+  - O formulário não deveria enviar os dados usando o método POST
+  - O texto "Funcionário" deveria estar em um label para seguir o mesmo padrão dos outros campos
+  - O campo select de funcionário deveria estar marcado como obrigatório
+  - O campo Email não deveria ser obrigatório
+  - O texto "Mensagem" deveria ser "Texto"
+  - O campo para o usuário escrever a mensagem deveria ser um elemento textarea e não um input
+  - O botão "Enviar" deveria ser "Enviar email"
+  - FEZ A PÁGINA OPCIONAL DE SUCESSO
+Sair
+  - ok
+Informações do funcionário (opcional)
+  - As partes do texto não foram marcadas em itálico
+Feedback
+  - Deve ter atenção aos requisitos para implementar o sistema conforme o que foi solicitado
+  - Deve sempre ter atenção a estrutura e organização do código
+  - De modo geral ficou bom
