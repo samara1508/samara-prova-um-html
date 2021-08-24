@@ -1,18 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,600&family=Nunito:wght@600&family=Raleway&family=Roboto:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
 #logo {
     position: relative;
     top: 0px;
-    left: 30%;
+    left: 30vw;
 }
 
 header .user {
     position: relative;
     top: 0px;
     left: -20px;
+    margin-bottom: 6vh;
 }
 
 #user {
     border-radius: 50%;
     border: solid;
     border-width: 1px;;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table, td, th, tfoot {
+    border:dotted 1px rgb(29, 24, 21); 
+    padding:5px;
+}
+
+tr {
+    background-color: rgb(253, 253, 253);
+    color: rgb(117, 40, 128);
+}
+
+th {
+    background-color: rgba(214, 182, 233, 0.87);
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    margin: 6vh 20vw 6vh 20vw;
+    /*background-color: #d8d2d2f5;*/
+
+}
+
+#logofooter{
+    position: relative;
+    left:-2%;
+}
+
+.navegacao {
+    display:flex;
+    justify-content: center;
+    border-top: solid;
+    border-width: 1px;
+    font-size: 14px;
+    color:#c3c3c3;
+    margin-top: 5vh;
+}
+
+.navegacao :hover {
+    text-decoration: overline;
+    color: rgb(119, 39, 184);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    
+}
+
+footer {
+    display:grid;
+    margin-top: 6vh;
+    background-color: rgb(199, 188, 211);
+    grid-template-rows: 1f 3f 1f;
+    font-size: small;
 }
 
