@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Samara Kristiny">
+    <link rel="stylesheet" href="./funcionarios.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Informações do Funcionário</title>
 </head>
 <body>
     <header>
         <figure>
-            <img src="./colab-logo.png" height="40px" width="140px" alt="Logo">
-            <div class="user">
-                <img src="./usuario.png" height="40px" width="40px" alt="Usuário">
-                <b>Henrique Barbosa,</b> <i>gerente-RH</i>
+            <div class="colab">
+                <img src="./colab-logo.png" height="40px" width="140px" alt="Logo" id="logo">
             </div>
+            <div class="user">
+                <img src="./usuario.png" height="30px" width="30px" alt="Usuário" id="user">
+                <strong>Henrique Barbosa,</strong> <em>Gerente-RH</em>
+            </div>          
         </figure>
-        <nav>
-            <h3>Menu</h3>
-                <a href="./index.html">Funcionários |</a>
-                <a href="./novofuncionario.html">Novo Funcionário |</a>
-                <a href="./email.html">Enviar Email |</a>
-                <a href="./inf-usuario.html">Perfil |</a>
-                <a href="./sair.html"> Sair</a>
+        <nav class="navegacao">
+                <a href="./inf-usuario.html">Perfil</a>
+                <a href="./index.html">Funcionários</a>
+                <a href="./novofuncionario.html">Novo Funcionário</a>
+                <a href="./email.html">Enviar Email</a>             
+                <a href="./sair.html">Sair</a>
         </nav>
     </header>
 
@@ -35,26 +38,24 @@
         </figure>
 
         <p>
-            <pre>
             O funcionário Márcia atua como <b>Contador</b> na filial
             001, na cidade de Tubarão, desde a sua data de contratação em 25/09/2019 
             e recebe o salário de R$ 2.640,78.
-            </pre>
         </p>
     </main>
 
     <footer>
         <figure>
-            <img src="./colab-logo.png" height="20px" width="100px" alt="Logo">
+            <img src="./colab-logo.png" height="20px" width="70px" alt="Logo" id="logofooter">
         </figure>
         <p>
-            "<strong>Colab</strong>-<mark>todas as informações dos seus colaboradores na palma da sua mão.</mark>"
+            <spam class="msg"><strong>Colab </strong>- Todas as informações dos seus colaboradores na palma da sua mão.</spam>
         </p>
-        <nav>
-                <a href="./index.html">Funcionários |</a>
-                <a href="./novofuncionario.html">Novo Funcionário |</a>
-                <a href="./email.html">Enviar Email |</a>
-                <a href="./inf-usuario.html">Perfil |</a>
+        <nav class="navegacao">
+                <a href="./inf-usuario.html">Perfil </a>
+                <a href="./index.html">Funcionários </a>
+                <a href="./novofuncionario.html">Novo Funcionário </a>
+                <a href="./email.html">Enviar Email </a>
                 <a href="./sair.html"> Sair</a>
         </nav>
     </footer>  

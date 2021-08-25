@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,600&family=Nunito:wght@600&family=Raleway&family=Roboto:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+header figure{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    padding-left: 7vw;
+}
+
+#user {
+    border-radius: 50%;
+    border: solid;
+    border-width: 1px;;
+}
+
+body{
+    display:grid;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+#main {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vw;
+}
+
+#logofooter{
+    position: relative;
+    left:-2%;
+}
+
+.navegacao {
+    display:flex;
+    justify-content: center;
+    border-top: 1px solid #e7e4e4;
+    font-size: 14px;    
+    margin-top: 5vh;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: rgb(119, 39, 184);
+}
+
+a{
+    text-decoration: none;
+    color: #c9c0c0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;   
+}
+
+footer {
+    margin-top: 6vh;
+    background-color: rgb(199, 188, 211);
+}
+
+.msg {
+    padding-left: 5%;
+    font-size: 16px;
+}
+
+footer a {
+    color:rgb(114, 109, 109);
+}
+
+#botoes {
+    display: flex;
+    justify-content:center;
+}
+
+button {
+    margin: 1vw;
+    background-color:rgb(237, 193, 243);
+}
+
+input[type="button"] {
+    margin: 1vw;
+    background-color:rgb(237, 193, 243);
+}

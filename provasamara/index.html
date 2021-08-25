@@ -12,83 +12,88 @@
 <body>
     <header>
         <figure>
-            <div class="user">
-                <img src="./usuario.png" height="40px" width="40px" alt="Usuário" id="user">
-                <strong>Henrique Barbosa,</strong> <em>Gerente-RH</em>
+            <div class="colab">
                 <img src="./colab-logo.png" height="40px" width="140px" alt="Logo" id="logo">
             </div>
+            <div class="user">
+                <img src="./usuario.png" height="30px" width="30px" alt="Usuário" id="user">
+                <strong>Henrique Barbosa,</strong> <em>Gerente-RH</em>
+            </div>
+            
         </figure>
         <nav class="navegacao">
+                <a href="./inf-usuario.html">Perfil</a>
                 <a href="./index.html">Funcionários</a>
                 <a href="./novofuncionario.html">Novo Funcionário</a>
-                <a href="./email.html">Enviar Email</a>
-                <a href="./inf-usuario.html">Perfil</a>
+                <a href="./email.html">Enviar Email</a>             
                 <a href="./sair.html">Sair</a>
         </nav>
     </header>
 
     <main>
-        <h3>Funcionários</h3>
-        <p>Na tabela abaixo estão listados <i>todos os funcionários</i> cadastrados na
-            empresa.</p>
-        <table>
-            <thead>
-                <tr><th colspan="6" class = "titulo">*Tabela de Funcionários*</th></tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><b>Nome</b></td>
-                    <td><b>Filial</td>
-                    <td><b>Dt. Admissão</b></td>
-                    <td><b>Cargo</b></td>
-                    <td><b>Salário</b></td>
-                    <td><b>Link inf.</b></td>
-                </tr>
-                <tr>
-                    <td>Leandro</td>
-                    <td>003</td>
-                    <td>14/05/2011</td>
-                    <td>Analista</td>
-                    <td>R$ 2.300,90</td>
-                    <td><a href="./inf-funcionario-l.html">Link</a></td>
-                </tr>
-                <tr>
-                    <td>Márcia</td>
-                    <td>001</td>
-                    <td>25/09/2019</td>
-                    <td>Contador</td>
-                    <td>R$ 2.640,78</td>
-                    <td><a href="./inf-funcionario-m.html">Link</a></td>                
-                </tr>
+        <section id="main">
+            <h3>Funcionários</h3>
+            <p>Na tabela abaixo estão listados <i>todos os funcionários</i> cadastrados na
+                empresa.</p>
+            <table>
+                <thead>
+                    <tr><th colspan="6" class = "titulo">Tabela de Funcionários</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Nome</b></td>
+                        <td><b>Filial</td>
+                        <td><b>Dt. Admissão</b></td>
+                        <td><b>Cargo</b></td>
+                        <td><b>Salário</b></td>
+                        <td><b>Link inf.</b></td>
+                    </tr>
+                    <tr>
+                        <td>Leandro</td>
+                        <td>003</td>
+                        <td>14/05/2011</td>
+                        <td>Analista</td>
+                        <td>R$ 2.300,90</td>
+                        <td><a href="./inf-funcionario-l.html">Link</a></td>
+                    </tr>
+                    <tr>
+                        <td>Márcia</td>
+                        <td>001</td>
+                        <td>25/09/2019</td>
+                        <td>Contador</td>
+                        <td>R$ 2.640,78</td>
+                        <td><a href="./inf-funcionario-m.html">Link</a></td>                
+                    </tr>
 
-                <tr>
-                    <td>Cíntia</td>
-                    <td>002</td>
-                    <td>08/07/2014</td>
-                    <td>Gerente</td>
-                    <td>R$ 4.600,09</td>
-                    <td><a href="./inf-funcionario-c.html">Link</a></td>                
-                </tr>
+                    <tr>
+                        <td>Cíntia</td>
+                        <td>002</td>
+                        <td>08/07/2014</td>
+                        <td>Gerente</td>
+                        <td>R$ 4.600,09</td>
+                        <td><a href="./inf-funcionario-c.html">Link</a></td>                
+                    </tr>
 
-                <tr>
-                    <td>Rosane</td>
-                    <td>005</td>
-                    <td>23/02/2020</td>
-                    <td>Estagiário</td>
-                    <td>R$ 560,80</td>
-                    <td><a href="./inf-funcionario-r.html">Link</a></td>                
-                </tr>
+                    <tr>
+                        <td>Rosane</td>
+                        <td>005</td>
+                        <td>23/02/2020</td>
+                        <td>Estagiário</td>
+                        <td>R$ 560,80</td>
+                        <td><a href="./inf-funcionario-r.html">Link</a></td>                
+                    </tr>
 
-                <tr>
-                    <td>Arthur</td>
-                    <td>004</td>
-                    <td>04/06/2017</td>
-                    <td>Supervisor</td>
-                    <td>R$ 2.080,90</td>
-                    <td><a href="./inf-funcionario-a.html">Link</a></td>                
-                </tr>
-            </tbody>
-        </table>
+                    <tr>
+                        <td>Arthur</td>
+                        <td>004</td>
+                        <td>04/06/2017</td>
+                        <td>Supervisor</td>
+                        <td>R$ 2.080,90</td>
+                        <td><a href="./inf-funcionario-a.html">Link</a></td>                
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 
     <footer>
@@ -96,13 +101,13 @@
             <img src="./colab-logo.png" height="20px" width="70px" alt="Logo" id="logofooter">
         </figure>
         <p>
-            <strong>Colab </strong>- todas as informações dos seus colaboradores na palma da sua mão.
+            <spam class="msg"><strong>Colab </strong>- Todas as informações dos seus colaboradores na palma da sua mão.</spam>
         </p>
         <nav class="navegacao">
+                <a href="./inf-usuario.html">Perfil </a>
                 <a href="./index.html">Funcionários </a>
                 <a href="./novofuncionario.html">Novo Funcionário </a>
                 <a href="./email.html">Enviar Email </a>
-                <a href="./inf-usuario.html">Perfil </a>
                 <a href="./sair.html"> Sair</a>
         </nav>
     </footer>
