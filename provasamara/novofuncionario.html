@@ -32,7 +32,7 @@
     <main>
         <section id="main">
             <h3>Cadastro de Funcionário</h3>
-            <form action="./cadastrado.html" method="post">
+            <form action="./cadastrado.html" method="post" id="formulario" target="_blank">
                 <fieldset>
                     <legend>Dados</legend>
                     <p>
@@ -45,7 +45,7 @@
                     </p>
                     <p>
                         Filial:
-                        <select>
+                        <select id="filial">
                             <option value="001" selected>001</option>
                             <option value="002">002</option>
                             <option value="003">003</option>
@@ -60,7 +60,7 @@
                     </p>
                     <p>
                         <label for="cargo">Cargo:</label>
-                        <input list = "cargo" type required>
+                        <input list = "cargo" type required id="cargo-funcionario">
                         <datalist id="cargo">
                             <option value="Gerente">Gerente</option>
                             <option value="Estágio">Estágio</option>
@@ -85,6 +85,9 @@
                 </div>                  
             </form>
         </section>
+        <section id="funcionarioCadastrado">
+
+        </section>
     </main>
 
     <footer>
@@ -102,5 +105,6 @@
                 <a href="./sair.html"> Sair</a>
         </nav>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
